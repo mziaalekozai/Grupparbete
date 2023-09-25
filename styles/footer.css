@@ -1,0 +1,30 @@
+footer{
+	background-color: #F6CF6D;
+    padding: 3em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5em;
+    position: absolute;
+    top: 100%;
+}
+.tid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)  ;
+}
+.kontakt{
+    display: inline-block;
+
+}
+footer h1{
+    padding: 0 0 1em ;
+}
+
+footer .logo-pic{
+   width: 5em;
+   display: grid;
+   justify-self: center;
+   align-items: center;
+   padding: 1em;
+
+}
