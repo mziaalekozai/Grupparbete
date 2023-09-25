@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+
+.omoss {
+  width: 100%;
+}
+.kroppen {
+  display: grid;
+  place-items: center;
+}
+
+.företaget {
+  margin-top: 1em;
+  width: 96%;
+  background-color: #e9e9e9;
+  height: 10em;
+}
+h1 {
+  text-align: center;
+}
+.Omföretag {
+  padding: 1em;
+}
+
+.utvecklarteamet {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  /* padding: 1em; */
+  width: 96%;
+  margin-bottom: 2em;
+}
+
+article {
+  background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+}
+.stortext {
+  grid-column: 1 / span 4;
+  text-align: center;
+  padding-top: 2em;
+  height: 3em;
+}
+
+.LA {
+  width: 50%;
+  padding-bottom: 0.5em;
+}
+.ptext {
+  padding-top: 0.4em;
+  text-align: center;
+}
