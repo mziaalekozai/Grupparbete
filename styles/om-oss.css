@@ -4,6 +4,7 @@
 
 .omoss {
   width: 100%;
+  padding-bottom: 1em;
 }
 .kroppen {
   display: grid;
@@ -12,46 +13,79 @@
 
 .företaget {
   margin-top: 1em;
-  width: 96%;
-  background-color: #e9e9e9;
-  height: 10em;
+  width: 60%;
+  background-color: #f0d392;
+  padding: 1em 2em;
+  border-radius: 1em;
+  margin-bottom: 4em;
 }
-h1 {
+.företaget p {
+  padding-bottom: 1em;
+}
+.TheTeam {
+  margin-left: 3em;
+  margin-right: 3em;
   text-align: center;
 }
-.Omföretag {
-  padding: 1em;
+.TheTeam h2 {
+  padding: 2em 0em;
+  border-top: 1px solid rgb(152, 159, 152);
 }
-
 .utvecklarteamet {
   display: grid;
-  grid-template-rows: 1fr 4fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1em;
-  /* padding: 1em; */
-  width: 96%;
+  grid-gap: 2em;
   margin-bottom: 2em;
+
+  @media (max-width: 840px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+  @media (max-width: 430px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
 }
 
 article {
-  background-color: #e9e9e9;
+  background-color: #f0d392;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0.5em;
+  border-radius: 1em;
 }
-.stortext {
-  grid-column: 1 / span 4;
-  text-align: center;
-  padding-top: 2em;
-  height: 3em;
-}
-
 .LA {
-  width: 50%;
-  padding-bottom: 0.5em;
+  width: 52%;
+  padding: 0.5em 0.5em;
 }
 .ptext {
   padding-top: 0.4em;
   text-align: center;
+}
+.AM {
+  width: 60%;
+  padding: 0.5em 0.5em;
+}
+.ZA {
+  width: 65%;
+  padding: 0.5em 0.5em;
+}
+.SM {
+  width: 62%;
+  padding: 0.5em 0.5em;
+}
+
+h4 {
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.tack {
+  text-align: center;
+  padding-top: 32px;
+  font-weight: 600;
+  font-size: 18px;
 }
