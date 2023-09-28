@@ -8,10 +8,8 @@
 }
 
 body {
-	margin-top: 5em;
-	min-height: 100vh;
+	margin-top: 2em;
 	background-color: #FBF2F2;
-
 }
 
 nav {
@@ -25,12 +23,9 @@ header {
 	top: 0;	left: 0; right: 0;
 	background-color: #F6CF6D;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-	padding: 0px 2%;
 	display: flex;
 	justify-content: center;
 	/* justify-content: flex-end; */
-	z-index: 1000;
-
 }
 
 /* header .seperator {
@@ -110,7 +105,7 @@ header .navbar ul li:hover>ul {
 	}
 }
 
-@media(max-width:500px) {
+@media(max-width:570px) {
 	body {
 		padding-top: 60%;
 	}
