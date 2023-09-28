@@ -4,7 +4,8 @@
 
 .omoss {
   width: 100%;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 .kroppen {
   display: grid;
@@ -18,16 +19,20 @@
   padding: 1em 2em;
   border-radius: 1em;
   margin-bottom: 4em;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 40px;
 }
 .företaget p {
   padding-bottom: 1em;
 }
 .TheTeam {
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 7em;
+  margin-right: 7em;
   text-align: center;
 }
 .TheTeam h2 {
@@ -40,12 +45,12 @@ h1 {
   grid-gap: 2em;
   margin-bottom: 2em;
 
-  @media (max-width: 840px) {
+  @media (max-width: 940px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
   }
-  @media (max-width: 430px) {
+  @media (max-width: 550px) {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
@@ -59,9 +64,10 @@ article {
   align-items: center;
   padding: 0.5em;
   border-radius: 1em;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 .LA {
-  width: 52%;
+  width: 54%;
   padding: 0.5em 0.5em;
   border-radius: 1em;
 }
