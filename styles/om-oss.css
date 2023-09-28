@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+}
+
+.omoss {
+  width: 100%;
+  /* padding-bottom: 1em; */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.kroppen {
+  display: grid;
+  place-items: center;
+}
+
+.företaget {
+  margin-top: 1em;
+  width: 70%;
+  background-color: #f0d392;
+  padding: 1em 2em;
+  border-radius: 1em;
+  margin-bottom: 4em;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 40px;
+}
+.företaget p {
+  padding-bottom: 1em;
+}
+.TheTeam {
+  margin-left: 7em;
+  margin-right: 7em;
+  text-align: center;
+}
+.TheTeam h2 {
+  padding: 2em 0em;
+  border-top: 1px solid rgb(152, 159, 152);
+}
+.utvecklarteamet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+  margin-bottom: 2em;
+
+  @media (max-width: 940px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+  @media (max-width: 550px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+}
+
+article {
+  background-color: #f0d392;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  border-radius: 1em;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.LA {
+  width: 54%;
+  padding: 0.5em 0.5em;
+  border-radius: 1em;
+}
+.ptext {
+  text-align: center;
+  padding: 1em;
+}
+.AM {
+  width: 60%;
+  padding: 0.5em 0.5em;
+  border-radius: 1em;
+}
+.ZA {
+  width: 65%;
+  padding: 0.5em 0.5em;
+  border-radius: 1em;
+}
+.SM {
+  width: 62%;
+  padding: 0.5em 0.5em;
+  border-radius: 1em;
+}
+
+h4 {
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.tack {
+  text-align: center;
+  padding-top: 32px;
+  font-weight: 600;
+  font-size: 19px;
+}
+.företaget p {
+  font-size: 18px;
+}
