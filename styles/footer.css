@@ -2,33 +2,15 @@ footer {
 	background-color: #F6CF6D;
 	box-shadow: 15px 0 10px  rgba(0, 0, 0, 0.1);
 	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	display: flex;
+	justify-content: center;
 	margin-top: 1em;
 	padding: 1em;
-}
-
-footer .icons {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	text-align: center;
 }
 
 footer .kontakt img {
 	width: 3em;
-	padding-top: 5px;
+	padding: 0 0 10px   ;
 }
 
-footer h1 {
-	padding: 8px;
-	margin-left: 10px;
-}
-
-footer .logo {
-	display: grid;
-	justify-items: center;
-}
-
-footer .logo-pic {
-	width: 5em;
-}
