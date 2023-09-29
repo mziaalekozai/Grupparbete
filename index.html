@@ -8,35 +8,32 @@
 	<link rel="stylesheet" href="./styles/navbar.css">
 	<link rel="stylesheet" href="./styles/footer.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com">
+
 	<title>Main</title>
 </head>
 
 <body>
 	<!-- nav bar -->
-	<nav>
-		<ul>
-			<a href="#"><img class="logo" src="bilder/Logo.png" alt="logo"></a>
-			<li><a href="">Produkter</a>
-				<ul class="dropdown-menu">
-					<li><a href="/sidor/prudukt.html">O Phone </a></li>
-					<li><a href="/sidor/prudukt.html">O Phone Pro</a></li>
-					<li><a href="/sidor/prudukt.html">O Phone Pro Max</a></li>
-				</ul>
-			</li>
-			<li><a href="">Om oss</a>
-				<ul class="dropdown-menu">
-					<li><a href="/sidor/om-oss.html">Om förataget</a></li>
-					<li><a href="/sidor/om-oss.html">Om Utvecklarteamet</a></li>
-				</ul>
-			</li>
-			<li><a href="/sidor/kontakt-oss.html">Kontakt oss</a>
-			</li>
-			<a href="#"><img class="sök" src="bilder/sök.png" alt="sök"></a>
-			<a href="#"><img class="kundvgn" src="bilder/Kundvagn.png" alt="kundvgn"></a>
-
-		</ul>
-
-	</nav>
+	<header>
+		<a href="#"><img class="logo" src="./bilder/Logo.png" alt="logo"></a>
+		<nav class="navbar">
+			<ul>
+				<li><a href="./sidor/prudukt.html">Produkter</a>
+				</li>
+				<li><a href="./sidor/kontakt-oss.html">Kontakt oss</a>
+				</li>
+				<li><a href="./sidor/om-oss.html">Om oss</a>
+					<ul class="dropdown-menu">
+						<li><a href="./sidor/om-oss.html#företaget">Företaget</a></li>
+						<li><a href="./sidor/om-oss.html#utvecklaretem">Utvecklarteam</a></li>
+					</ul>
+				</li>
+			</ul>
+			<input type="text">
+			<a href="#"><img class="sök" src="./bilder/sök.png" alt="sök"></a>
+			<a href="#"><img class="kundvgn" src="./bilder/Kundvagn.png" alt="kundvgn"></a>
+		</nav>
+	</header>
 
 	<!-- main -->
 	<main>
@@ -46,30 +43,15 @@
 	</main>
 	<!-- Footer -->
 	<footer>
-		<div class="tid">
-
-			<h1>Öppettider</h1>
-			<p>
-				Måndag - Fredag
-				10:00 - 20:00
-			</p>
-			<p>
-
-				Lördag - Söndag
-				10:00 - 19:00
-			</p>
-		</div>
-		<div class="logo">
-			<a href="#"><img class="logo-pic" src="/bilder/Logo.png" alt=""></a>
-			<p>©Orange company 2023</p>
 		</div>
 		<div class="kontakt">
-			<h1>Kontakt</h1>
-			<p>
-				Tel. 031 000 000 <br>
-				E-post. orange@orange.com
-			</p>
-
+			<div class="icons">
+				<a href="./sidor/kontakt-oss.html"><img src="./bilder/Phone.png" alt="phone"></a>
+				<a href="./sidor/kontakt-oss.html"><img src="./bilder/instagram.png" alt="instagram"></a>
+				<a href="./sidor/kontakt-oss.html"><img src="./bilder/facebook.png" alt="facebook"></a>
+				<a href="./sidor/kontakt-oss.html"><img src="./bilder/twitter.png" alt="twitter"></a>
+			</div>
+			<p> &copy; Orange company 2023</p>
 		</div>
 	</footer>
 </body>
