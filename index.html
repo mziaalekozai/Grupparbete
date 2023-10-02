@@ -1,98 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="main.css">
-	<link rel="stylesheet" href="./styles/navbar.css">
-	<link rel="stylesheet" href="./styles/footer.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com">
+    <title>Main</title>
+  </head>
+  <body>
+    <header>
+      <a href="#"><img class="logo" src="./bilder/Logo.png" alt="logo" /></a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="./sidor/prudukt.html">Produkter</a></li>
+          <li><a href="./sidor/kontakt-oss.html">Kundtjänst</a></li>
+          <li>
+            <a href="./sidor/om-oss.html">Om oss</a>
+            <ul class="dropdown-menu">
+              <li><a href="./sidor/om-oss.html#företaget">Företaget</a></li>
+              <li>
+                <a href="./sidor/om-oss.html#utvecklaretem">Utvecklarteam</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <input type="text" />
+        <a href="#"><img class="sök" src="./bilder/sök.png" alt="sök" /></a>
+        <a href="#"
+          ><img class="kundvgn" src="./bilder/Kundvagn.png" alt="kundvgn"
+        /></a>
+      </nav>
+    </header>
 
-	<title>Main</title>
-</head>
+    <main>
+      <section class="container-top">
+        <div>
+          <!-- <h1>O phone</h1> -->
+          <img src="bilder/start-bild2.png" alt="start-bild2" />
+        </div>
+      </section>
 
-<body>
-	<!-- nav bar -->
-	<header>
-		<a href="#"><img class="logo" src="./bilder/Logo.png" alt="logo"></a>
-		<nav class="navbar">
-			<ul>
-				<li><a href="./sidor/prudukt.html">Produkter</a>
-				</li>
-				<li><a href="./sidor/kontakt-oss.html">Kundtjänst</a>
-				</li>
-				<li><a href="./sidor/om-oss.html">Om oss</a>
-					<ul class="dropdown-menu">
-						<li><a href="./sidor/om-oss.html#företaget">Företaget</a></li>
-						<li><a href="./sidor/om-oss.html#utvecklaretem">Utvecklarteam</a></li>
-					</ul>
-				</li>
-			</ul>
-			<input type="text">
-			<a href="#"><img class="sök" src="./bilder/sök.png" alt="sök"></a>
-			<a href="#"><img class="kundvgn" src="./bilder/Kundvagn.png" alt="kundvgn"></a>
-		</nav>
-	</header>
+      <a href="./sidor/prudukt.html">
+        <button class="info-button">Läs mer ></button>
+      </a>
 
-	<!-- main -->
+      <section class="container-bottom">
+        <div class="container">
+          <img class="Orang" src="../bilder/Orenge.png" alt="" />
+          <a href="./sidor/prudukt.html">
+            <button>Köp</button>
+          </a>
+          <h4>O Phone</h4>
+          <p class="pris">Pris 9 999 kr</p>
+        </div>
+        <div class="container">
+          <img class="black" src="../bilder/svart.png" alt="" />
+          <a href="./sidor/prudukt.html">
+            <button>Köp</button>
+          </a>
+          <h4>O Phone</h4>
+          <p class="pris">Pris 9 999 kr</p>
+        </div>
+        <div class="container">
+          <img class="white" src="../bilder/white.png" alt="" />
+          <a href="./sidor/prudukt.html">
+            <button>Köp</button>
+          </a>
+          <h4>O Phone</h4>
+          <p class="pris">Pris 9 999 kr</p>
+        </div>
+      </section>
+      <div class="go-to-top">
+        <a href="#">Gå till toppen</a>
+      </div>
+    </main>
 
-	<main>
-		<section class="container-top">
-			<div >
-				<!-- <h1>O phone</h1> -->
-				<img src="bilder/start-bild2.png" alt="start-bild2">
-			</div>
-		</section>
-		
-		<a href="./sidor/prudukt.html">
-			<button class="info-button">Läs mer ></button>
-		</a>
-	
-		<section class="container-bottom">
-			<div class="container">
-				<img class="Orang" src="../bilder/Orenge.png" alt="">
-				<a href="./sidor/prudukt.html">
-					<button>Köp</button>
-				</a>
-				<h4>O Phone</h4>
-				<p class="pris">Pris 9 999 kr</p>
-			</div>
-			<div class="container">
-				<img class="black" src="../bilder/svart.png" alt="">
-				<a href="./sidor/prudukt.html">
-					<button>Köp</button>
-				</a>
-				<h4>O Phone</h4>
-				<p class="pris">Pris 9 999 kr</p>
-
-			</div>
-			<div class="container">
-
-				<img class="white" src="../bilder/white.png" alt="">
-				<a href="./sidor/prudukt.html">
-					<button>Köp</button>
-				</a>
-				<h4>O Phone</h4>
-				<p class="pris">Pris 9 999 kr</p>
-			</div>
-		</section>
-
-
-	</main>
-	<!-- Footer -->
-	<footer>
-		</div>
-		<div class="kontakt">
-			<div class="icons">
-				<a href="./sidor/kontakt-oss.html"><img src="./bilder/Phone.png" alt="phone"></a>
-				<a href="./sidor/kontakt-oss.html"><img src="./bilder/instagram.png" alt="instagram"></a>
-				<a href="./sidor/kontakt-oss.html"><img src="./bilder/facebook.png" alt="facebook"></a>
-				<a href="./sidor/kontakt-oss.html"><img src="./bilder/twitter.png" alt="twitter"></a>
-			</div>
-			<p> &copy; Orange company 2023</p>
-		</div>
-	</footer>
-</body>
-
+    <footer>
+      <div class="kontakt">
+        <div class="icons">
+          <a href="./sidor/kontakt-oss.html"
+            ><img src="./bilder/Phone.png" alt="phone"
+          /></a>
+          <a href="./sidor/kontakt-oss.html"
+            ><img src="./bilder/instagram.png" alt="instagram"
+          /></a>
+          <a href="./sidor/kontakt-oss.html"
+            ><img src="./bilder/facebook.png" alt="facebook"
+          /></a>
+          <a href="./sidor/kontakt-oss.html"
+            ><img src="./bilder/twitter.png" alt="twitter"
+          /></a>
+        </div>
+        <p>&copy; Orange company 2023</p>
+      </div>
+    </footer>
+  </body>
 </html>

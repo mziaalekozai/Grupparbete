@@ -11,13 +11,14 @@ body {
 
 nav {
 	display: flex;
-	/* flex-grow: 1; */
 	align-items: center;
 }
 
 header {
 	position: sticky;
-	top: 0;	left: 0; right: 0;
+	top: 0;
+	left: 0;
+	right: 0;
 	background-color: #F6CF6D;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 	display: flex;
@@ -63,6 +64,8 @@ header .navbar ul li a {
 header .navbar ul li a:hover {
 	background-color: #eec856;
 	color: #000000;
+	font-weight: bold;
+
 }
 
 header .navbar ul li .dropdown-menu {
@@ -106,10 +109,14 @@ header .navbar ul li:hover>ul {
 
 	header .navbar ul {
 		position: absolute;
-		top: 85%; left: 0; right: 0;
+		top: 85%;
+		left: 0;
+		right: 0;
 		background-color: #F6CF6D;
 		display: flex;
 		justify-content: center;
+		font-weight: bold;
+
 	}
 
 	header .navbar ul li .dropdown-menu li {
